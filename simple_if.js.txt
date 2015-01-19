@@ -1,0 +1,46 @@
+if ("naresh".length >7 ) {
+    console.log("logng name");
+}
+else
+{
+    console.log("short name");
+}
+
+ console.log(14 % 3); 
+ console.log(99 % 8); 
+ console.log(11 % 3); 
+
+if( 10 % 2 === 0 ) {
+    console.log("The first number is even");
+} else {
+    console.log("The first number is odd");
+}
+// Use console.log( ) to print out the substrings.
+// Here is an example of the 1st to 4th letter of "JavaScript":
+console.log("JavaScript".substring(0,4));
+
+ console.log("January".substring(0,3));
+console.log("Melbourne is great".substring(0,12));
+console.log("Hamburgers".substring(3,10));
+// declare your variable 
+var myAge =10;
+
+console.log(myAge);
+// myCountry and give it a string value.
+var  myCountry="INDIA";
+
+// Use console.log to print out the length of the variable myCountry.
+console.log( myCountry.length );
+
+// Use console.log to print out the first three letters of myCountry.
+console.log(  myCountry.substring(0,3));
+// Check if the user is ready to play!
+var age = prompt("What's your age");
+if(age< 13) 
+{
+   console.log("i am ready to play");}
+
+else{
+    console.log("i am not ready to play");
+
+}
