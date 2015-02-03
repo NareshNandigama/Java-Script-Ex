@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button onclick="factorial()">click</button>
+
+<p id="demo"></p>
+
+<script>
+function factorial (n)
+{ 
+    if(n==0){ return 1;
+        }
+        else{
+    return (n * factorial (n-1) );
+    }
+}
+document.write(factorial(5));
+</script>
+
+</body>
+</html>
